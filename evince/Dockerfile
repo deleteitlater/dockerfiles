@@ -1,11 +1,10 @@
 # Evince in a container
-#
+
 # docker run -it \
 #	-v $HOME/documents/:/root/documents/ \
 #	-v /tmp/.X11-unix:/tmp/.X11-unix \
 #	-e DISPLAY=$DISPLAY \
 #	evince
-#
 
 FROM alpine:latest
 LABEL maintainer "Christian Koep <christiankoep@gmail.com>"
