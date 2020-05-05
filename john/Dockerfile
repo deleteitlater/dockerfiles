@@ -25,7 +25,6 @@ RUN set -x \
 	) \
 	&& rm -rf /usr/src/johntheripper \
 	&& apk del .build-deps
-
 COPY john.ini /root/john.ini
 COPY passwd.lst /root/passwd.lst
 
